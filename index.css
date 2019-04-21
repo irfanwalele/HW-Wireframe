@@ -1,26 +1,30 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    
   }
 
   body {
-    font-size: 24px;
+    font-size: 18px;
+    width: 960px;
     line-height: 32px;
-    color: #333;
+    color: #777777;
+    background: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  
   }
 
 #header {
   padding: 20px;
   margin-bottom: 20px;
-  color: #fff;
-  background: #888888;
+  background: #ebebeb;
 }
 
 #nav {
   padding: 20px;
   margin-bottom: 20px;
-  color: #fff;
-  background: #888888;
+  color: #777777;
+  background: #ebebeb;
 }
 
 #section {
@@ -29,9 +33,19 @@ width: 49.5%;
 height:200px;
 padding: 20px;
 border: 1px;
-color: #fff;
-background: #888888;
+color: #777777;
+background: #ebebeb;
 margin-bottom: 20px;
+}
+
+#article {
+  color: #ebebeb;
+  background: #777777;
+}
+
+#h1 {
+  color: #777777;
+  background: #ebebeb
 }
 
 #aside {
@@ -40,14 +54,14 @@ margin-bottom: 20px;
    height: 200px;
    border: 1px;
    padding: 20px;
-  color: #fff;
-  background: #888888;
+  color: #777777;
+  background: #ebebeb;
   margin-bottom: 20px;
 }
 
 #footer {
   padding: 20px;
   margin-top: 240px;
-  color: #fff;
-  background: #888888;
+  color: #777777;
+  background: #ebebeb;
 }
